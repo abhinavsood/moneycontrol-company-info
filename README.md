@@ -14,6 +14,17 @@ Program uses `requests` and `BeautifulSoup` modules which can be installed as fo
 ## Input file format
 Input text file should have one stock per line. The program looks for the ISIN number on each line in the format `ISIN:<ISIN Number>` so as long as there is an ISIN number in this format, it doesn't matter what else is present on the line.
 
+A sample input file may look like this:
+
+```
+ASTRA MICROWAVE PRODUCTS LIMITED (ISIN:INE386C01029)
+BERGER PAINTS INDIA LIMITED (ISIN:INE463A01038)
+Whatever Stock (ISIN:INE757A01017)
+Company Name (ISIN:INE220B01022)
+FORCE MOTORS LTD (ISIN:INE451A01017)
+GATI LIMITED (ISIN:INE152B01027)
+```
+
 ## Output file format
 Output file is a CSV file containing the following fields
 * ISIN
